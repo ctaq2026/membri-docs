@@ -1,0 +1,369 @@
+DOCUMENTATION MEMBRI
+Catégorie : Membres
+Article : Adhésions
+
+Adhésions
+Comprendre le processus d'adhésion
+Créer une adhésion
+Réinitialiser une adhésion
+Gérer les adhésions qui proviennent d'un formulaire web
+Comprendre le processus d'adhésion
+
+Le processus d'adhésion permet
+de créer une cotisation en attente de paiement ainsi qu'une facture d'adhésion
+. La cotisation deviendra active à la réception du paiement et le compte sera membre de votre organisation.
+On passe donc par le processus d'adhésion pour deux types de membres:
+Les
+nouveaux membres
+de votre organisation
+Les
+anciens membres
+de votre organisation
+Dans les deux cas, le formulaire est le même à la différence qu'on peut sélectionner le compte d'un ancien membre pour préremplir les champs du formulaire, mais qu'on doit créer manuellement le nouveau (s'il n'est pas déjà dans la base de données).
+Pour mieux comprendre les différents statuts des membres,
+cliquez ici
+.
+Il n'est pas possible de faire l'adhésion d'un membre en processus de renouvellement.
+Créer une adhésion
+
+1. Choisir ou créer un compte et lui attribuer un propriétaire
+
+Naviguer jusqu'à la page
+Adhésions
+dans la section
+Membres
+du menu principal et sélectionner
++Nouveau
+dans la barre d'outils.
+À l'aide du champ recherche
+Compte
+, choisir un compte existant non-membre pour en faire l'adhésion ou créer un compte en sélectionnant
++ Créer Compte
+pour faire l'ouverture du formulaire rapide
+Création rapide: Compte
+info
+Si vous devez faire la création d'un compte, remplissez seulement les champs obligatoires accompagnés d'un
+astérisque rouge
+. En effet, les autres champs se retrouvent tous dans le formulaire d'adhésion que vous êtes en train de remplir. Comme ce sont des champs du compte, ils sont décrits dans la section de notre documentation qui traite des
+comptes
+.
+Il est très probable que vous deviez également faire la création rapide d'un contact principal pour ce compte. Encore une fois, vous pouvez seulement remplir les champs obligatoires pour ce formulaire. Les autres champs sont présents dans le formulaire d'adhésion. Toutefois, comme ce sont des champs du formulaire de contact, ils sont décrits dans la section de notre documentation qui traite des
+contacts
+.
+À l'aide du champ recherche
+Propriétaire
+, déterminer le l'utilisateur du CRM propriétaire du compte.
+2. Compléter les champs de l'onglet
+Entreprise
+
+Remplir les champs obligatoires et facultatifs de l'onglet
+Entreprise
+astuce
+Tous les champs de cet onglet sont en fait des champs de la fiche du compte. Pour avoir plus d'information sur la nature de ces champs, rendez-vous dans la section
+Compte
+de notre documentation.
+3. Compléter les champs de l'onglet
+Abonnement
+
+Passer à l'onglet Abonnement et remplir les divers champs obligatoires et facultatifs que l'on y retrouve
+Abonnement
+
+Champs
+Description
+Type d'abonnement
+Champ recherche qui permet de sélectionner le type d'abonnement parmi
+la liste des types d'abonnement
+de l'environnement
+Ensemble d'options d'abonnement
+Permet de sélectionner l'ensemble d'options d'abonnement parmi
+la liste des ensembles d'options d'abonnement
+- Selon l'ensemble choisi, le compte peut avoir accès à des gratuités et à des options d'abonnement incluses ou additionnelles.
+Prix de l'ensemble
+Champ de l'
+ensemble d'options d'abonnement
+qui indique le montant à payer pour un abonnement à cet ensemble d'options d'abonnement
+Durée de l'abonnement (Mois)
+Le nombre de mois pendant lesquels la cotisation du membre sera active
+Abonnement gratuit
+Permet d'offrir gratuitement un abonnement à cet ensemble d'options d'abonnement au compte dont vous faites l'adhésion
+Renouveler automatiquement
+Si ce champ indique
+Non
+, le compte recevra un avis de renouvellement qui devra être accepté pour produire sa facture de
+renouvellement
+. Si ce champ indique
+Oui
+, le compte ne recevra pas d'avis de renouvellement. On lui enverra plutôt sa facture de
+renouvellement
+automatiquement.
+Période et prix de l'abonnement
+
+Champs
+Description
+Prédéterminer la date de début
+Permet de prédéterminer la date à laquelle la cotisation du membre commencera - Si ce champ indique
+Oui
+, le champ
+Date de début prédéterminée
+s'affiche à sa suite.
+Date de début prédéterminée
+Champ date qui permet de choisir la date à laquelle l'abonnement débutera
+Outrepasser la durée de l'abonnement
+Permet d'inscrire une durée différente de celle prévue par l'
+ensemble d'options d'abonnement
+- Si ce champ indique
+Oui
+, le champ
+Durée de l'abonnement
+s'affiche à sa suite. Toutefois, il faut que l'
+ensemble d'options d'abonnement le permette
+.
+Durée de l'abonnement (Mois)
+Permet d'indiquer un nombre de mois différent de celui prévu par l'ensemble d'options d'abonnement pendant lesquels le compte sera membre
+Prédéterminer la date de fin
+Permet de prédéterminer la date à laquelle la cotisation prend fin - Si ce champ indique
+Oui
+, les champs
+Date de fin prédéterminée
+et
+Type d'ajustement au prorata
+s'affichent à sa suite.
+Date de fin prédéterminée
+Champ date qui permet de choisir la à laquelle l'abonnement prend fin
+Type d'ajustement au prorata
+Si la date de fin prédéterminée ne permet pas à l'abonnement de s'échelonner sur toute la durée prévue par l'ensemble d'options d'abonnement, il est possible d'indiquer quel ajustement le système doit faire sur le prix de l'abonnement. L'option
+Aucun
+ne fait aucun ajustement sur le initial. L'option
+Automatique
+indique au système qu'il doit calculer lui-même la fraction du prix initial que le membre doit payer pour son abonnement. L'option
+Montant
+permet d'indiquer un montant précis à payer pour cet abonnement réduit ou prolongé.
+Prédéterminer le montant
+Permet d'outrepasser le montant prévu pour le prix de l'ensemble d'options d'abonnement et d'en indiquer un autre - Si ce champ indique
+Oui
+, le champ
+Montant prédéterminé
+s'affiche à sa suite.
+Montant prédéterminé
+Permet d'indiquer le prix à payer pour une cotisation en lien avec cet ensemble d'options d'abonnement
+Prédéterminer le crédit de cotisation
+Permet d'outrepasser le montant du crédit de cotisation prévu par l'
+ensemble d'options d'abonnement
+et d'en indiquer un autre - Si ce champ indique
+Oui
+, le champ
+Montant de crédit prédéterminé
+s'affiche à sa suite.
+Montant de crédit prédéterminé
+Permet d'indiquer le montant des crédits de cotisation à inscrire sur la cotisation -
+Le montant prévu ne peut être supérieur au montant facturé pour l'abonnement.
+Appliquer les frais d'ouverture de dossier
+Cette option permet d'appliquer ou non les frais d'ouverture d'un nouveau dossier à la nouvelle adhésion. Peut-être le compte existait-il déjà dans un ancien système ou a-t-il déjà été membre par le passé? Dans ces cas-ci, ce champ devrait indiquer
+Non
+. Le montant de ces frais est déterminé dans l'
+ensemble d'options de l'abonnement
+.
+Appliquer le rabais nouvelle entreprise
+Permet d'offrir un rabais configuré dans l'
+ensemble d'options de l'abonnement
+à une nouvelle entreprise
+Paiement
+
+Champs
+Description
+Payée d'avance
+Permet d'indiquer si l'adhésion a déjà été payée au moment de la création de l'adhésion
+Montant de paiement
+Le montant du paiement reçu au moment de la création de l'adhésion
+Mode de paiement
+Menu déroulant qui permet de choisir le mode de paiement par lequel le paiement a été fait
+Détails du paiement
+Selon le mode de paiement, ce champ peut être obligatoire. On y inscrit par exemple un numéro de confirmation dans le cas d'un paiement par carte de crédit ou le numéro de chèque lorsque le paiement est fait par chèque.
+info
+Si le paiement correspond au montant total de la facture d'adhésion, la cotisation du membre sera immédiatement payée et active lorsque vous
+facturerez l'adhésion
+.
+Comptabilité
+
+Les fonctionnalités de cet encadré ont été remplacés par les
+produits
+.
+Facture
+
+Champs
+Description
+Bloquer l'envoi du courriel de la facture
+Permet de ne pas envoyer le courriel de facturation au moment de
+facturer l'adhésion
+Message sur la facture
+Permet d'inscrire un message directement sur la
+facture
+d'adhésion
+Premier code de réduction
+Permet d'appliquer un
+code de réduction
+sur le montant de la facture d'adhésion
+Appliquer le code de réduction au renouvellement
+Permet d'appliquer le code de réduction inscrit au champ précédent au moment de l'envoi de la facture de
+renouvellement
+Deuxième code de réduction
+Permet d'appliquer un deuxième
+code de réduction
+sur le montant de la facture d'adhésion
+Appliquer le code de réduction au renouvellement
+Permet d'appliquer le code de réduction inscrit au champ précédent au moment de l'envoi de la facture de
+renouvellement
+Troisième code de réduction
+Permet d'appliquer un troisième
+code de réduction
+sur le montant de la facture d'adhésion
+Appliquer le code de réduction au renouvellement
+Permet d'appliquer le code de réduction inscrit au champ précédent au moment de l'envoi de la facture de
+renouvellement
+Gratuités
+
+Champs
+Description
+Choisir l'ensemble de gratuités plus tard
+Permet au responsable de l'inscription de choisir l'
+ensemble de gratuités
+plus tard. Les ensembles à choisir plus tard apparaissent dans un tableau de bord au moment de l'activation de la cotisation. Si la cotisation est déjà active (payée d'avance), le compte s'affiche sur le tableau à la fin du processus d'adhésion. Les gratuités iront s'ajouter à la cotisation au moment du choix.
+Ensemble de gratuités
+Champ recherche qui permet de chosir parmi les
+ensemble de gratuités
+reliés à l'
+ensemble d'options d'abonnement
+choisi.
+Options d'abonnement
+
+Incluses
+
+Ce module indique les
+options d'abonnement
+qui sont incluses dans l'
+ensemble d'options d'abonnement
+choisi.
+Additionnelles
+
+Ce module indique les
+options d'abonnement
+qui sont additionnelles à l'
+ensemble d'options d'abonnement
+choisi.
+4. Compléter les champs de l'Onglet
+Délégués
+
+Passer à l'onglet
+Délégués
+et utiliser le champ recherche de cet encadré pour faire la recherche d'un contact de cette entreprise ou faire la création d'un nouveau contact en sélectionnant
++Créer Contact
+au bas du menu déroulant pour faire l'ouverture du formulaire rapide
+Création rapide: Contact
+Remplir les divers champs obligatoires et facultatifs que l'on y retrouve
+astuce
+Tous les champs de cet onglet sont en fait des champs de la fiche du contact principal. Pour avoir plus d'information sur la nature de ces champs, rendez-vous dans la section
+Contacts
+de notre documentation.
+5. Ajouter des délégués additionnels
+
+attention
+Il se peut que l'ensemble d'options d'abonnement que vous avez choisi à l'onglet
+Abonnement
+ne permette pas l'ajout de délégué secondaire.
+Sélectionner l'onglet
+Délégués
+du formulaire d'adhésion;
+Sélectionner
+Enregistrer
+dans la barre d'outils pour faire la création de l'adhésion dans votre environnement
+Membri
+et pour permettre l'ajout de délégués secondaires sur le formulaire d'adhésion;
+À partir de l'encadré
+Délégués secondaires
+, sélectionner
+Ajouter un(e) Contact existant(e)
+pour faire l'ouverture de formulaire de recherche;
+À l'aide du champ recherche, sélectionner les contacts à ajouter comme délégués secondaires;
+astuce
+Il est possible de sélectionner plus d'un contact à la fois.
+Sélection
+Ajouter
+au bas du formulaire.
+Délégués secondaires
+
+Champs
+Description
+Nombre de délégués inclus
+Le nombre de délégués inclus dans cet
+ensemble d'options d'abonnement
+qu'il est possible d'ajouter à la cotisation de ce futur membre sans charges additionnelles.
+Prix de délégués additionnels
+Prix à payer pour des
+délégués additionnels
+de plus que ceux qui sont inclus dans l'ensemble choisi
+6. Facturer
+
+Sélectionner
+Facturer
+dans la barre d'outils pour créer et envoyer une facture d'adhésion au courriel de facturation du compte.
+Au moment de la facturation, une cotisation en attente de paiement est créée et ajoutée à l'onglet
+Abonnement
+de la fiche du compte. Le compte se verra également attribuer le statut de
+Membre à venir
+jusqu'au moment de la facture d'adhésion.
+Lors de l'application du paiement, la cotisation en attente s'activera et le compte aura le statut de
+Membre
+pour toute la durée de sa cotisation.
+astuce
+Un message de validation du prix de la facture et de l'ensemble d'options d'abonnement choisi apparaîtra au moment de la sélection du bouton
+Facturer
+. Vous pourrez alors confirmer une dernière fois les informations saisies.
+Réinitialiser une adhésion
+
+Si vous avez
+fait une erreur sur une adhésion facturée
+, mais que celle-ci n’est
+pas encore payée
+, il vous est possible de
+réinitialiser l’adhésion
+pour effectuer les changements nécessaires. Vous devrez sélectionner l’icône
+Réinitialiser
+dans votre barre d’outils. L’adhésion sera ainsi supprimée et la facture sera annulée.
+Gérer les adhésions qui proviennent d'un formulaire web
+
+Les adhésions qui proviennent de votre site web arriveront directement dans
+Membri 365
+. Pourtant, le processus d'adhésion n'est pas complet pour autant. Cela s'explique par deux raisons logiques:
+D'une part, cela vous permet de
+savoir que vous avez un nouveau compte qui désire être membre
+. Vous pouvez alors prendre les actions nécessaires pour bien accueillir ce nouveau compte membre au sein de votre organisation.
+D'autre part, il se peut que
+des erreurs se soient glissées dans la demande d'adhésion
+. Par exemple, il se pourrait qu'un nouveau membre choisisse le mauvais type d'abonnement. Une fois la demande vérifiée,
+faites les modifications nécessaires
+. Vous pouvez indiquer quelles modifications ont été faites en ajoutant un message personnalisé directement sur la facture.
+Il ne vous reste maintenant qu'à
+facturer
+.
+danger
+Le formulaire d'adhésion
+ne vous laisse plus indiquer si le compte est un compte existant ou non
+.
+Les formulaires d'adhésion reçus du site web vont
+toujours créer un compte
+. Si un compte non-membre du même nom existe déjà dans votre base de données, veillez à
+le fusionner
+au nouveau compte créé par le formulaire.
+Utiliser la recherche globale pour valider ou infirmer l'existence d'un compte non-membre du même nom que celui créé par l'adhésion
+Si un compte du même nom existe déjà, naviguer jusqu'à la section
+Comptes
+du menu principal
+Utiliser le sélecteur de vues pour choisir la vue système
+Comptes actifs
+Utiliser la recherche rapide pour identifier les éléments à fusionner
+Cocher les deux comptes
+Fusionner les éléments
+Questions fréquemment posées
+
+Section en développement
+remarque
