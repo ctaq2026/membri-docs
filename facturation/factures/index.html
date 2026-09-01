@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Factures - Documentation Membri</title>
+
+  <meta
+    name="description"
+    content="Documentation Membri 365 sur les factures : création manuelle, recherche, paiement, envoi, états de compte, annulations, remboursements et notes de crédit."
+  >
+
+  <link
+    rel="canonical"
+    href="https://membri.conseiltaq.com/facturation/factures/"
+  >
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 32px 20px 80px;
+      color: #1f2937;
+    }
+
+    nav {
+      margin-bottom: 28px;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: .5rem;
+    }
+
+    h2 {
+      margin-top: 2.3rem;
+      padding-top: .5rem;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    h3 {
+      margin-top: 1.6rem;
+    }
+
+    p {
+      margin: .7rem 0;
+    }
+
+    ol,
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin: .35rem 0;
+    }
+
+    a {
+      color: #1d4ed8;
+    }
+
+    .callout {
+      padding: 12px 14px;
+      margin: 1rem 0;
+      background: #f3f4f6;
+      border-left: 4px solid #6b7280;
+    }
+
+    .attention {
+      border-left-color: #b91c1c;
+    }
+
+    .info {
+      border-left-color: #1d4ed8;
+    }
+
+    .astuce {
+      border-left-color: #047857;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="/">Documentation Membri</a> › Facturation › Factures
+  </nav>
+
+  <main>
+
+    <h1>Factures</h1>
+
+    <p>
+      Dans Membri 365, lors des différentes opérations, les factures sont
+      généralement générées automatiquement par le système.
+    </p>
+
+    <p>
+      Plusieurs processus nécessitent toutefois une intervention manuelle,
+      notamment la création de factures, l'application de paiements,
+      l'envoi de factures et les annulations.
+    </p>
+
+    <h2>Créer une facture manuelle</h2>
+
+    <p>
+      Une facture manuelle peut être créée directement à partir de la page
+      <strong>Factures</strong> de la section <strong>Facturation</strong>.
+    </p>
+
+    <p>
+      Lors de l'ajout de produits à une facture manuelle, trois méthodes
+      peuvent être utilisées.
+    </p>
+
+    <h3>Sélectionner un produit existant</h3>
+
+    <ol>
+      <li>
+        Utiliser la loupe du champ de recherche <strong>Produit</strong>.
+      </li>
+      <li>
+        Sélectionner le produit dans la liste des produits de l'environnement.
+      </li>
+      <li>
+        Déterminer la quantité achetée et le prix unitaire.
+      </li>
+      <li>
+        Sélectionner <strong>Enregistrer et fermer</strong>.
+      </li>
+    </ol>
+
+    <div class="callout attention">
+      <strong>Attention.</strong>
+      Lors de la création d'une facture manuelle, seuls les produits de type
+      <strong>Autres</strong> ou <strong>Services</strong> peuvent être sélectionnés.
+    </div>
+
+    <div class="callout info">
+      <strong>Information.</strong>
+      Une modification du prix lors de la création d'une ligne de produit
+      ne modifie pas le prix par défaut du produit.
+    </div>
+
+    <h3>Créer un produit dans l'environnement</h3>
+
+    <ol>
+      <li>
+        Sélectionner la loupe du champ de recherche <strong>Produit</strong>.
+      </li>
+      <li>
+        Sélectionner <strong>+ Créer Produit</strong>.
+      </li>
+      <li>
+        Compléter les champs obligatoires et facultatifs du formulaire rapide.
+      </li>
+    </ol>
+
+    <p>
+      Le produit ainsi créé pourra être réutilisé lors de la création
+      d'autres factures.
+    </p>
+
+    <h3>Créer un produit uniquement pour cette facture</h3>
+
+    <ol>
+      <li>Nommer le produit et indiquer son prix.</li>
+      <li>Déterminer la quantité achetée.</li>
+      <li>
+        Inscrire le numéro de G/L et/ou le numéro de produit selon le système
+        comptable utilisé.
+      </li>
+      <li>
+        Sélectionner <strong>Enregistrer et fermer</strong>.
+      </li>
+    </ol>
+
+    <p>
+      Ce produit ne sera disponible que pour cette facture.
+    </p>
+
+    <div class="callout attention">
+      <strong>Attention.</strong>
+      Il n'est pas possible de créer une facture combinant des produits
+      taxables et des produits non taxables.
+    </div>
+
+    <p>
+      Une fois les produits ajoutés, sélectionner
+      <strong>Facturer</strong> dans la barre d'outils.
+    </p>
+
+    <div class="callout attention">
+      <strong>Attention.</strong>
+      Il n'est plus possible de modifier les lignes de produits après
+      la facturation.
+    </div>
+
+    <h2>Trouver une facture</h2>
+
+    <h3>À partir de la fiche d'un compte</h3>
+
+    <p>Pour consulter rapidement les factures ouvertes :</p>
+
+    <ol>
+      <li>Accéder à la fiche du compte.</li>
+      <li>Sélectionner l'onglet <strong>Facturation</strong>.</li>
+      <li>Consulter les factures ouvertes du compte.</li>
+    </ol>
+
+    <p>Pour consulter toutes les factures associées au compte :</p>
+
+    <ol>
+      <li>Sélectionner <strong>Association</strong> dans l'en-tête.</li>
+      <li>Sélectionner <strong>Factures</strong>.</li>
+      <li>
+        Utiliser les vues système, la recherche rapide ou les filtres
+        pour retrouver la facture.
+      </li>
+    </ol>
+
+    <h3>À partir de la liste des factures</h3>
+
+    <ol>
+      <li>
+        Accéder à la page <strong>Factures</strong> dans le menu principal.
+      </li>
+      <li>
+        Utiliser les vues, la recherche rapide ou les filtres.
+      </li>
+    </ol>
+
+    <div class="callout astuce">
+      <strong>Astuce.</strong>
+      La recherche rapide peut utiliser le nom de la facture, son numéro
+      de référence ou le compte facturé. Une recherche partielle peut être
+      effectuée avec l'astérisque (*).
+    </div>
+
+    <h2>Payer une facture</h2>
+
+    <div class="callout attention">
+      <strong>Attention.</strong>
+      Si vous utilisez Sage50, les paiements doivent plutôt être appliqués
+      directement dans Sage. Ils seront ensuite récupérés par Membri 365.
+    </div>
+
+    <h3>Faire un paiement régulier</h3>
+
+    <ol>
+      <li>Sélectionner la facture à payer.</li>
+      <li>Sélectionner l'onglet <strong>Paiements</strong>.</li>
+      <li>Sélectionner <strong>+ Nouveau Paiement</strong>.</li>
+      <li>
+        Inscrire les informations du paiement dans le formulaire
+        <strong>Création rapide : Paiement</strong>.
+      </li>
+      <li>Sélectionner <strong>Enregistrer et fermer</strong>.</li>
+      <li>
+        Sélectionner <strong>Actualiser</strong> pour voir le nouveau solde.
+      </li>
+    </ol>
+
+    <div class="callout info">
+      <strong>Information.</strong>
+      Selon le mode de paiement, le champ <strong>Détails</strong> peut être
+      obligatoire, par exemple pour un numéro de confirmation ou un numéro
+      de chèque.
+    </div>
+
+    <h3>Appliquer des crédits de factures disponibles</h3>
+
+    <ol>
+      <li>Sélectionner la facture concernée.</li>
+      <li>Sélectionner l'onglet <strong>Paiements</strong>.</li>
+      <li>
+        Mettre <strong>Appliquer les crédits de factures disponibles</strong>
+        à <strong>Oui</strong>.
+      </li>
+      <li>
+        Au besoin, déterminer le montant maximal de crédits à utiliser.
+      </li>
+    </ol>
+
+    <h2>Envoyer une facture</h2>
+
+    <p>
+      Les envois sont généralement automatisés, mais une facture peut aussi
+      être envoyée ou renvoyée manuellement.
+    </p>
+
+    <h3>Envoyer via Membri 365</h3>
+
+    <ol>
+      <li>Trouver et sélectionner la facture.</li>
+      <li>
+        Sélectionner <strong>Renvoyer le courriel</strong> dans la barre
+        d'outils.
+      </li>
+    </ol>
+
+    <div class="callout info">
+      <strong>Information.</strong>
+      Cet envoi met à jour le champ
+      <strong>Dernier courriel envoyé le</strong>.
+    </div>
+
+    <h3>Télécharger la facture</h3>
+
+    <ol>
+      <li>Trouver et sélectionner la facture.</li>
+      <li>
+        Sélectionner <strong>Télécharger la facture</strong>.
+      </li>
+      <li>
+        Envoyer ensuite le PDF avec le système de messagerie de votre choix.
+      </li>
+    </ol>
+
+    <h3>Envoyer la facture au propriétaire</h3>
+
+    <ol>
+      <li>Trouver la facture.</li>
+      <li>
+        Sélectionner <strong>Envoyer au propriétaire</strong>.
+      </li>
+    </ol>
+
+    <h2>États de compte</h2>
+
+    <h3>Envoyer ou télécharger un état de compte</h3>
+
+    <ol>
+      <li>Accéder à la fiche du compte.</li>
+      <li>
+        Sélectionner <strong>Envoyer l'état de compte</strong>
+        ou <strong>Télécharger l'état de compte</strong>.
+      </li>
+    </ol>
+
+    <h3>Envoi automatique</h3>
+
+    <p>
+      L'envoi automatique peut être activé pour les comptes qui ont des
+      factures ouvertes depuis plus de 30 jours.
+    </p>
+
+    <p>
+      Les états de compte automatiques sont envoyés tous les 30 jours lorsque
+      les critères sont toujours remplis.
+    </p>
+
+    <div class="callout info">
+      <strong>Information.</strong>
+      Cette option n'est pas activée par défaut dans Membri 365.
+    </div>
+
+    <h3>Exclure un compte des envois automatiques</h3>
+
+    <ol>
+      <li>Sélectionner le compte.</li>
+      <li>Accéder à l'onglet <strong>Facturation</strong>.</li>
+      <li>
+        Mettre <strong>Ne pas envoyer d'états de compte</strong> à
+        <strong>Oui</strong>.
+      </li>
+      <li>Enregistrer.</li>
+    </ol>
+
+    <h3>Exclure une facture d'un état de compte</h3>
+
+    <ol>
+      <li>Sélectionner la facture.</li>
+      <li>Accéder à l'onglet <strong>Résumé</strong>.</li>
+      <li>
+        Mettre <strong>Exclure de l'état de compte</strong> à
+        <strong>Oui</strong>.
+      </li>
+      <li>Enregistrer.</li>
+    </ol>
+
+    <h2>Annulations et remboursements</h2>
+
+    <h3>Annuler une facture non payée</h3>
+
+    <ol>
+      <li>Trouver la facture en attente de paiement.</li>
+      <li>
+        Sélectionner <strong>Annuler la facture</strong> dans la barre
+        d'outils.
+      </li>
+      <li>Confirmer l'annulation.</li>
+    </ol>
+
+    <h3>Annuler une facture déjà payée ou partiellement payée</h3>
+
+    <div class="callout attention">
+      <strong>Attention.</strong>
+      Cette procédure ne s'applique pas aux factures d'adhésion ou aux
+      factures de renouvellement déjà payées.
+    </div>
+
+    <p>
+      L'annulation d'une facture déjà payée crée une facture de remboursement
+      avec un solde négatif.
+    </p>
+
+    <ol>
+      <li>Sélectionner la facture à rembourser.</li>
+      <li>
+        Sélectionner <strong>Annuler la facture</strong>.
+      </li>
+      <li>
+        Effectuer le remboursement au client par le moyen approprié.
+      </li>
+      <li>Ouvrir ensuite la facture de remboursement.</li>
+      <li>Sélectionner l'onglet <strong>Paiements</strong>.</li>
+      <li>Sélectionner <strong>+ Nouveau Paiement</strong>.</li>
+      <li>
+        Choisir le mode de paiement <strong>Remboursement</strong>.
+      </li>
+      <li>Inscrire les détails du remboursement.</li>
+      <li>Sélectionner <strong>Enregistrer et fermer</strong>.</li>
+    </ol>
+
+    <div class="callout attention">
+      <strong>Attention.</strong>
+      La saisie d'un remboursement dans Membri 365 n'effectue pas
+      automatiquement le transfert de fonds. Le remboursement financier
+      doit être effectué séparément.
+    </div>
+
+    <h2>Créer une note de crédit</h2>
+
+    <ol>
+      <li>
+        Accéder à <strong>Facturation → Factures</strong>.
+      </li>
+      <li>
+        Sélectionner <strong>+ Nouveau</strong>.
+      </li>
+      <li>
+        Sélectionner le compte concerné et compléter les informations
+        nécessaires.
+      </li>
+      <li>
+        Sélectionner <strong>Enregistrer</strong>.
+      </li>
+      <li>
+        Dans <strong>Produits de la facture</strong>, sélectionner les
+        trois points, puis <strong>+ Nouveau produit de la facture</strong>.
+      </li>
+      <li>
+        Compléter les champs du produit.
+      </li>
+      <li>
+        Entrer un montant négatif pour représenter le crédit.
+      </li>
+      <li>
+        Sélectionner <strong>Enregistrer et fermer</strong>.
+      </li>
+    </ol>
+
+    <div class="callout info">
+      <strong>Information.</strong>
+      Les montants négatifs représentent une somme à rembourser au compte
+      et sont affichés entre parenthèses dans Membri 365.
+    </div>
+
+  </main>
+
+</body>
+</html>
